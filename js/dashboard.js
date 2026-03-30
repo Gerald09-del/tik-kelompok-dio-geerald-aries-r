@@ -4,7 +4,7 @@
 // ===============================
 async function fetchDashboardData() {
   const [
-    teachers,
+    Teachers,
     students,
     classes,
     lessons,
@@ -31,7 +31,7 @@ async function fetchDashboardData() {
 // ===============================
 function renderStats(data) {
   document.getElementById("teachers").textContent =
-    data.teachers_rows.length;
+    data.Teachers_rows.length;
 
   document.getElementById("students").textContent =
     data.students_rows.length;
