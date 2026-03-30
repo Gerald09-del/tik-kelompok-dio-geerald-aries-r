@@ -18,7 +18,7 @@ async function fetchDashboardData() {
   ]);
 
   return {
-    teachers_rows: teachers,
+    Teachers_rows: teachers,
     students_rows: students,
     classes_rows: classes,
     lessons_rows: lessons,
