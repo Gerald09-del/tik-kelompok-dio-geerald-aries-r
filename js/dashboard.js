@@ -4,7 +4,7 @@
 // ===============================
 async function fetchDashboardData() {
   const [
-    Teachers,
+    teachers,
     students,
     classes,
     lessons,
